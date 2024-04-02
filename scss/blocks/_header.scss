@@ -1,0 +1,40 @@
+.header {
+    background-image: url(../img/header/header-bg.png);
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    @include mobile-small() {
+        background-size: auto;
+    }
+}
+
+.header__img-abs--left {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+
+    @include desktop-small() {
+        display: none;
+    }
+}
+
+.header__nav {
+    @include tablet-small () {
+        display: none;
+    }
+}
+
+.header__content {
+    font-family: "Arvo", sans-serif;
+    font-size: 60px;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+    @include tablet() {
+        font-size: 40px;
+    }
+}

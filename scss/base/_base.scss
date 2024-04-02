@@ -1,0 +1,32 @@
+@import url("/fonts/Arvo-Regular/stylesheet.css");
+@import url("/fonts/Bahnschrift/stylesheet.css");
+@import url("/fonts/Verdana/stylesheet.css");
+
+//font-family: "Arvo", sans-serif;
+//font-family: "Bahnschrift", sans-serif;
+//font-family: "Verdana", sans-serif;
+
+html, body {
+    font-family: $font-main;
+    background-color: $bg-color;
+    color: $text-color;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1950px;
+
+    @include desktop-small() {
+        padding: 0 15px;
+    }
+}
+
+.none {
+    display: none !important;
+}
+
+.space {
+    padding-bottom: 300px;
+}

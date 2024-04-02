@@ -1,0 +1,43 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 275px;
+
+    @include tablet-small() {
+        display: block;
+    }
+}
+
+.nav__btn {
+    margin-top: 100px;
+    background-color: $btn-bg-color;
+    padding: 6px 30px;
+    border: 5px solid $btn-border-color;
+    border-radius: 25px;
+    font-size: 30px;
+    line-height: 1.2;
+    transition: background-color 0.2s ease-in;
+
+    &:hover {
+        background-color: $btn-active-color;
+    }
+
+    @include tablet-small() {
+        margin-top: 0;
+    }
+}
+
+.active {
+    background-color: $btn-active-color;
+}
+
+.nav__owner {
+    margin-top: 130px;
+    font-size: 33px;
+    line-height: 1.2;
+    font-family: $font-accent;
+
+    @include tablet-small() { 
+        margin-top: 30px;
+    }
+}

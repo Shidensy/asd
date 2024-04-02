@@ -1,0 +1,8 @@
+.mobile-nav {
+    display: none;
+
+    @include tablet-small() {
+        display: block;
+        text-align: center;
+    }
+}

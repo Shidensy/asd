@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Verdana';
+    src: local('Verdana'), local('Verdana'),
+        url('Verdana.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}

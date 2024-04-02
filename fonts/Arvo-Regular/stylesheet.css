@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Arvo';
+    src: local('Arvo Regular'), local('Arvo-Regular'),
+        url('Arvo-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
